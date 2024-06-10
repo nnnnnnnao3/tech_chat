@@ -17,3 +17,37 @@ div {
   padding: 0;
 }
 
+/*ヘッダー共通部分*/
+header{
+background-color: #1c3677;
+height: 65px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.heder-title{
+  font-family: "Open Sans", sans-serif;
+  font-size: 23px;
+  font-weight: 100;
+  letter-spacing: 1.8px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.question-button{
+color: #3a3736;
+height: 32px;
+width: 80px;
+border-radius: 5px;
+background-color: #ffffff;
+margin-right: 20px;
+text-align: center;
+}
+
+.question-button a{
+  line-height: 32px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #3A3736;
+}
