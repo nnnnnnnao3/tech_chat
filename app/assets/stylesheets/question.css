@@ -51,3 +51,70 @@ text-align: center;
   text-decoration: none;
   color: #3A3736;
 }
+
+/*質問一覧メイン*/
+.question-list{
+ background-color: #f2f2f3;
+ height: calc(100% - 65px);
+ padding: 90px 0;
+}
+
+.question-contents{
+  width: 700px;
+  margin: 0 auto;
+}
+
+.post-content{
+  display: flex;
+  height: 100px;
+  margin-bottom: 25px;
+  
+}
+
+/*質問一覧左側*/
+.comment{
+  background-color: #1c3667;
+  text-align: center;
+  width: 70px;
+  padding-top: 20px;
+  border-radius: 5px 0 0 5px;
+}
+
+.comment-count{
+  font-size: 26px;
+  color: #ffffff;
+  height: 38px;
+}
+
+.comment-label{
+  font-size: 11px;
+  color: #ffffff;
+  height: 16px;
+}
+
+/*質問一覧右側*/
+.question{
+  background-color: #ffffff;
+  padding: 10px 15px;
+  width: 630px;
+}
+
+.question-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.question-title{
+  font-size: 14px;
+  width: 500px;
+}
+
+.questioner{
+  font-size: 12px;
+text-align: center;
+}
+
+.question-content{
+  font-size: 12px;
+  margin-top: 10px;
+}
