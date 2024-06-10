@@ -8,10 +8,10 @@
    </div>
   <div class="question">
    <div class="question-top">
-    <div class="question-title"><%= question.title %><br></div>
-    <div class="questioner"><%= question.name%><br></div>
+    <div class="question-title"><%= link_to question.title, question_path(question.id)%></div>
+    <div class="questioner"><%= question.name%></div>
     </div>
-    <div class="question-content"><%= question.content%><br></div>
+    <div class="question-content"><%= question.content%></div>
    </div>
   </div>
   <% end %>
